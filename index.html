@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <nav id=""desktop-nav">
+    <nav id="desktop-nav">
         <div class="logo">Zin Thaw Aung</div>
         <div>
             <ul class="nav-links">
@@ -18,6 +18,22 @@
                 <li><a href="#project">Project</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hambuger-nav">
+        <div class="logo">Zin Thaw Aung</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
    <script src="script.js"></script>
